@@ -6,7 +6,7 @@ class chain{
     var options = {
         bodyA: body1,
         bodyB: body2,
-        pointB:{x:this.offsetX, y:this.soffsetY}
+        pointB:{x:this.offsetX, y:this.offsetY}
     }
 
     this.chain = Constraint.create(options);
