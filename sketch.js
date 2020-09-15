@@ -55,12 +55,9 @@ function draw() {
  
 }
 
-function keyPressed(){
-   if (keyDown ===LEFT_ARROW){
-    Matter.Body.applyForce(bobObj1.body,paper1.body.position,{x:-40,y:-40});
-         
-       
-}
-}
+ function keyPressed(){
+	 if (keyCode ===LEFT_ARROW)
+	 { Matter.Body.applyForce(bobObject1.body,bobObject1.body.position,{x:-40,y:-40} ); 
+	 }
 
 
