@@ -60,4 +60,4 @@ function draw() {
 	 { Matter.Body.applyForce(bobObject1.body,bobObject1.body.position,{x:-40,y:-40} ); 
 	 }
 
-
+ }
